@@ -17,7 +17,7 @@ def dumbellplot(columnA,columnB,columnC,x_header,y_header,y1_name,y2_name):
     b = filtered_dataset[columnB]
     c = filtered_dataset[columnC]
 
-    plt.figure(figsize=10,6)
+    plt.figure(figsize=(10,6))
     plt.scatter(b, a, color="darkblue", label=y1_name,marker='o',s=100)
     plt.scatter(c,a,color='teal',label=y2_name,marker='o', s=100)
 
